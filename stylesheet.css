@@ -1,0 +1,86 @@
+  #header {
+    position:fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    width: 75%;
+  }
+  body {
+    background-color: white;
+    font-family: Bebas Neue;
+    text-align:center;
+    }
+  #header-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+  }
+  #nav-bar {
+    font-size: 150%;
+    color: #fbb03b;
+    margin:auto;
+    padding:10px;
+  }
+  input[type=button],
+  input[type=submit] {
+    font-family:Bebas Neue;
+    background: #E98A15;
+    border: 1px solid #ECE5F0;
+    text-shadow: 1px 1px 1px #ECE5F0;
+  }
+  .shirts {
+    width:50%;
+    height:auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:100px;
+    padding-bottom:10px;
+    display:block;
+  }
+  .tapes {
+    width:50%;
+    height:auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:100px;
+    padding-bottom:10px;
+    display:block;
+  }
+  .totes {
+    width:50%;
+    height:auto;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:100px;
+    padding-bottom:10px;
+    display:block;
+  }
+  #bottom {
+    margin-bottom: 300px;
+  }
+  #video {
+    border: 1px solid #fbb03b;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+  }
+  .endofpage {
+    flex-direction: column;
+    display: flex;
+  }
+  @media (max-width:750px){
+    #video {
+      width: 40%;
+    }
+  }
